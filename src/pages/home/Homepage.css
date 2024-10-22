@@ -1,0 +1,22 @@
+
+.main{
+    height: calc(100vh - 70px);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.overlay{
+    height: calc(100vh - 70px);
+    background-color: rgba(0, 0, 0, 0.106);
+    
+}
+.content{
+    width: 500px;
+    background-color: white;
+}
+
+@media (max-width: 576px) {
+   .content{
+    width: 100%;
+   }
+}
