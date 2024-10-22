@@ -4,6 +4,7 @@ import "./Homepage.css";
 import background from "../../assets/image/background.jpeg";
 import { Button } from "react-bootstrap";
 import CustomButton from "../../component/common/CustomButton";
+import FeaturedMeal from "./Featuredmeal";
 
 const HomePage = () => {
   return (
@@ -26,6 +27,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <FeaturedMeal/>
     </>
   );
 };
