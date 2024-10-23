@@ -17,17 +17,14 @@ const HomePage = () => {
            rounded"
           >
             <h3 className="text-center mb-3">FOOD THAT FITS YOU.</h3>
-            <p className="text-center mb-3 ">
-              Fresh and delicious meal kits, delivered right to your door Now
-              with more choices every week{" "}
-            </p>
+            <p className="text-center mb-3 ">Fresh and delicious meal kits, delivered right to your door Now with more choices every week </p>
             <div className="text-center">
               <CustomButton title={"Select Your Plan"} />
             </div>
           </div>
         </div>
       </div>
-      <FeaturedMeal/>
+      <FeaturedMeal />
     </>
   );
 };
