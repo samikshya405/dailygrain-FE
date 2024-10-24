@@ -1,0 +1,21 @@
+.about-container {
+  min-height: 100vh;
+}
+
+.menu-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.meal-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.meal-card:hover {
+  transform: scale(1.05);
+}
+.contact-container {
+  min-height: 100vh;
+  background-color: #e9ecef;
+}
