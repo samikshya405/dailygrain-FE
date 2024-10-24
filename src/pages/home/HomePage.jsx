@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../../component/layout/Header";
 import "./Homepage.css";
 import background from "../../assets/image/background.jpeg";
-import { Button } from "react-bootstrap";
 import CustomButton from "../../component/common/CustomButton";
 import FeaturedMeal from "./Featuredmeal";
 import BannerOne from "./BannerOne";
