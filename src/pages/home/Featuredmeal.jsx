@@ -9,7 +9,7 @@ import MenuCard from "../../component/common/MenuCard";
 
 const FeaturedMeal = () => {
   return (
-    <Container>
+    <Container >
       <h2 style={{ color: "#004d40" }} className="py-4">
         Menu Highlights
       </h2>
@@ -25,7 +25,7 @@ const FeaturedMeal = () => {
             <MenuCard img={featured} title={"High Protein"} />
           </div>
         </Col>
-        <Col className="d-flex flex-column gap-3" xs={12} md={12} lg={6}>
+        <Col className="d-flex flex-column gap-4" xs={12} md={12} lg={6}>
           <Row>
             <Col xs={6} md={6} lg={6}>
               <div

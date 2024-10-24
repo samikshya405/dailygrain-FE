@@ -15,7 +15,7 @@ const MenuCard = ({img,title}) => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          color:"#004d40"
+          color:"var(--text-color)"
         }}
       >
         <div className="fw-bolder ">{title}</div>

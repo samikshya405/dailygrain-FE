@@ -20,3 +20,25 @@
     width: 100%;
    }
 }
+
+
+
+/* banner One */
+
+.banner-one-box{
+    min-height: 50vh;
+    background: var(--secondary-color);
+}
+.banner-one-image-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: var(--text-color);
+}
+.banner-one-image{
+    max-width: 100%;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
