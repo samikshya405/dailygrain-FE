@@ -64,7 +64,6 @@ subscription-plans */
     background-color: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    /* max-width: 320px; */
     min-width: 320px;
     position: relative;
     transition: transform 0.3s ease-in-out;
@@ -76,7 +75,6 @@ subscription-plans */
   
   .plan-title {
     font-size: 1.75rem;
-    /* color: #0e3748; */
   }
   
   .plan-price {

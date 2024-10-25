@@ -10,9 +10,7 @@ const HowItWorks = () => {
       <Container>
         <div className="how-it-works__header">
           <h1 className="text-center mb-4">How It Works</h1>
-          {/* <p className="text-center">
-            Simple steps to get healthy meals delivered to your door.
-          </p> */}
+          
         </div>
         <div>
           <Row >

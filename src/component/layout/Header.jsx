@@ -19,7 +19,7 @@ const Header = () => {
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>MENU</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="justify-content-end flex-grow-1 pe-3">
+            <Nav className="justify-content-end align-items-center flex-grow-1 pe-3">
               <Link to="/" className="nav-link">
                 Home
               </Link>

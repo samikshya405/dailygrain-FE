@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { Container, Row, Col } from 'react-bootstrap';
-import './footer.css'; // Optional: If you have specific styles for the footer
+import './footer.css'; 
 
 const Footer = () => {
   return (
