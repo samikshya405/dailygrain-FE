@@ -5,6 +5,8 @@ import background from "../../assets/image/background.jpeg";
 import CustomButton from "../../component/common/CustomButton";
 import FeaturedMeal from "./Featuredmeal";
 import BannerOne from "./BannerOne";
+import HowItWorks from "./HowItWorks";
+import SubscriptionPlan from "./SubscriptionPlan";
 
 const HomePage = () => {
   return (
@@ -26,6 +28,8 @@ const HomePage = () => {
       </div>
       <FeaturedMeal />
       <BannerOne/>
+      <HowItWorks/>
+      <SubscriptionPlan/>
     </>
   );
 };
