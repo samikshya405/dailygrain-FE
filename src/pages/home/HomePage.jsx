@@ -7,6 +7,7 @@ import FeaturedMeal from "./Featuredmeal";
 import BannerOne from "./BannerOne";
 import HowItWorks from "./HowItWorks";
 import SubscriptionPlan from "./SubscriptionPlan";
+import Footer from "../../component/layout/Footer";
 
 const HomePage = () => {
   return (
@@ -30,6 +31,7 @@ const HomePage = () => {
       <BannerOne/>
       <HowItWorks/>
       <SubscriptionPlan/>
+      <Footer/>
     </>
   );
 };
